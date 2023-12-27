@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#"
+     xml:base="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_32"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mange -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mange">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mangePar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Animal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mangePar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mangePar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#partieDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#partieDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Animal">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Plante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Arbre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Arbre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Plante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Branche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Branche">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#partieDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Arbre"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Carnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Carnivore">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Animal"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mange"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Animal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Feuille -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Feuille">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#partieDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Branche"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Giraffe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Giraffe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Herbivore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mange"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Feuille"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Herbivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Herbivore">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Animal"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mange"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Plante"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#partieDe"/>
+                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Plante"/>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Lion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Lion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Carnivore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mange"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Herbivore"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Plante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Plante"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#PlanteSavoureuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#PlanteSavoureuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Plante"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mangePar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Carnivore"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#mangePar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Herbivore"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Une PlanteSavoureuse est une plante qui est mangée par un Herbivore et aussi par un Carnivore</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Batavia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Batavia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Feuille"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#LaPalme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#LaPalme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Branche"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Léo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Léo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Lion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Olivier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Olivier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Arbre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Rose-marie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Rose-marie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#PlanteSavoureuse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Sophie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Sophie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nabil/ontologies/2021/0/AnimauxPlantes_36#Giraffe"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

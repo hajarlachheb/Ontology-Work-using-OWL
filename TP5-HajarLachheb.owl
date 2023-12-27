@@ -1,0 +1,1050 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#"
+     xml:base="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Abonnée_à -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Abonnée_à"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Achete_un -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Achete_un"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Dirige -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Dirige"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#EnConcurrence_Avec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#EnConcurrence_Avec"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Finance_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Finance_par"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Offre_un -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Offre_un"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Paye_un -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Paye_un"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Proumouvoit_Un -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Proumouvoit_Un"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Reglementé_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Reglementé_par"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Signe_un -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Signe_un"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transporte_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transporte_par"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Travaille_pour -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Travaille_pour"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Adresse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Adresse">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Clients"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Adresse_de_la_societé -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Adresse_de_la_societé">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Founisseurs"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Adresse_email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Adresse_email">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Clients"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Fournisseurs"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Age">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CNIE -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CNIE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CNSS -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CNSS">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Fournisseurs"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_&amp;_Cellules"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Date_de_debut -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Date_de_debut">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Date_de_fin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Date_de_fin">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Description_de_prestation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Description_de_prestation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Organisation_interne"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Founisseurs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Founisseurs">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Fournisseurs"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Genre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Genre">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Clients"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Id_du_contrat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Id_du_contrat">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Nom_complet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Nom_complet">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Clients"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Fournisseurs"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Nom_de_la_societé -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Nom_de_la_societé">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Founisseurs"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Numero_de_telephone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Numero_de_telephone">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employes_et_gestionnaires"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Clients"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Apourattribut"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Fournisseurs"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Type_de_prestation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Type_de_prestation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Année_d&apos;experience_de_la_societé -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Année_d&apos;experience_de_la_societé">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Founisseurs"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Abonnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Abonnement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Actionnaires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Actionnaires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction_superieur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Administration_publique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Administration_publique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Autorite_legislative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Associations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Associations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Communauté_local"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Autorite_legislative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Autorite_legislative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_externe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Bailleurs_de_fonds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Bailleurs_de_fonds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_externe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CDD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CDD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CDI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CDI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Chefs_de_departement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Chefs_de_departement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employés"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Clients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Clients">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Communauté_local"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Achete_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Produits_et_services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Communauté_local -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Communauté_local">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_externe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Comptabilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Comptabilité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Chefs_de_departement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Dirige"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_comptabilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_comptabilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Comptables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Comptables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Membres_de_departement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_comptabilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Concurrents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Concurrents">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#EnConcurrence_Avec"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction_superieur"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_externe"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#EnConcurrence_Avec"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction_superieur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_RH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_RH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_&amp;_Cellules"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#RH_coordinators"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#RH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_comptabilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_comptabilité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_&amp;_Cellules"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Comptables"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Comptabilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_&amp;_Cellules"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Products_officers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Production"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_technique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_&amp;_Cellules"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#IT_Engineer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contient"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Technique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Concurrents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Organisation_interne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction_superieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction_superieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Organisation_interne"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Finance_par"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Bailleurs_de_fonds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Offre_un"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Produits_et_services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Offre_un"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Salaire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Paye_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Paye_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employés"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Paye_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Fournisseurs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Reglementé_par"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Autorite_legislative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employés -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employés">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_&amp;_Cellules"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Abonnée_à"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Abonnement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Paye_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport_de_service"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Signe_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Etat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Etat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Autorite_legislative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Fournisseurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Fournisseurs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_externe"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Offre_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Produits_et_services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Signe_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Prestations_-_AE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Gestionnaires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Gestionnaires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Signe_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CDD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#IT_Engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#IT_Engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Membres_de_departement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_technique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Indirect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Indirect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Concurrents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#La_presse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#La_presse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Communauté_local"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Proumouvoit_Un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Produits_et_services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Legislateurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Legislateurs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Autorite_legislative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Lobbys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Lobbys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Pouvoir_Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Membres_de_departement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Membres_de_departement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Employés"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Mensuelle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Mensuelle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Salaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Organisation_interne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Organisation_interne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_interne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Par_unité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Par_unité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Salaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_externe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_externe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_interne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_interne"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Parties_politiques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Parties_politiques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Pouvoir_Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Pouvoir_Public -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Pouvoir_Public">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Partie_prenante_externe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Prestations_-_AE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Prestations_-_AE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Contrat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Chefs_de_departement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Dirige"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_production"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_production"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Products_officers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Products_officers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Membres_de_departement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_production"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Produits_et_services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Produits_et_services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Services"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transporte_par"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport_de_marchandise"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Proprietaires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Proprietaires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Direction_superieur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#RH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#RH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Chefs_de_departement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Dirige"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_RH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_RH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#RH_coordinators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#RH_coordinators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Membres_de_departement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_de_RH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Salaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Salaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Services"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Syndicats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Syndicats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Pouvoir_Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Technique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Chefs_de_departement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Dirige"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_technique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#TravailleDans"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_technique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport_de_marchandise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport_de_marchandise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport_de_service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport_de_service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_&amp;_Cellules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Departement_&amp;_Cellules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Organisation_interne"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#boolean">
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Genre"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer">
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Age"/>
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Numero_de_telephone"/>
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CNSS"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string">
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#CNIE"/>
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Adresse"/>
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Nom_complet"/>
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/hajarlachheb/ontologies/2021/1/EntrepriseOntology#Adresse_email"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

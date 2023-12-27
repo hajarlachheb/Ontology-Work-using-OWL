@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#"
+     xml:base="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#DirigéPar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#DirigéPar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#EcritPar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#EcritPar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Neserapas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Neserapas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#partieDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#partieDe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#rattachéA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#rattachéA"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Nom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Nom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Membres_du_laboratoire"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Numerodebureau -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Numerodebureau">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Membres_du_laboratoire"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Prenom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Prenom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Membres_du_laboratoire"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Administratif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Administratif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Auteurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Auteurs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Laboratoire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Chercheur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Chercheur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Auteurs"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Conferences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Conferences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Doctorant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Doctorant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Enseignant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Enseignant">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#PRAG-"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Neserapas"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Administratif"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Gestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Gestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Administratif"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Cursus_d&apos;enseignement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Ingenieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Ingenieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Laboratoire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Laboratoire"/>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Maitre_de_conference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Maitre_de_conference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Chercheur"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Enseignant"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Professeurs"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Matieres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Matieres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Enseignant"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Cursus_d&apos;enseignement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#rattachéA"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Cursus_d&apos;enseignement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Membres_du_laboratoire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Membres_du_laboratoire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Laboratoire"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#rattachéA"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Équipedulaboratoire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#PRAG- -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#PRAG-">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Enseignant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Professeurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Professeurs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Laboratoire"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#EcritPar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Auteurs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication_du_haut_niveau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication_du_haut_niveau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication_international -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication_international">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Conferences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Revues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#partieDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication_du_haut_niveau"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication_national -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication_national">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Conferences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Revues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Revues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Revues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Sous-sous_équipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Sous-sous_équipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Sous-équipe"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#rattachéA"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Sous-équipe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Sous-équipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Sous-équipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Équipedulaboratoire"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#rattachéA"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Équipedulaboratoire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Membres_du_laboratoire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#TD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#TD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Matieres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#TP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#TP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Matieres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Équipedulaboratoire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Équipedulaboratoire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Laboratoire"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#partieDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Laboratoire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#DirigéPar"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Chercheur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Cursus_d&apos;enseignement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Cursus_d&apos;enseignement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Laboratoire"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#DirigéPar"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/macbookpro/ontologies/2021/0/LaboratoireAssalam#Enseignant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
